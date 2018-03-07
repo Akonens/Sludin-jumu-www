@@ -1,0 +1,79 @@
+
+.container-fluid {
+  background-color: rgba(0, 0, 0,0.5);
+  background-blend-mode: overlay;
+}
+
+.headerHomepage {
+
+  height:50vh; /* you can change that height to 100%, please get sure youre Header is ready */
+  /*background-attachment:fixed;*/
+  background-size:cover;
+  background-position:left;
+  background-repeat:no-repeat;
+  background-image: url('../img/OE9V3P0.jpg');
+  /*opacity: 0.5;*/
+  background-blend-mode:screen; /* you can remove that, if you do that delet the "linear-gradient(to right, black 0%, white 100%)," */
+  /*linear-gradient(to right, black 0%, white 100%),*/
+}
+
+
+/*Homepage content */
+
+.header_column0 , .header_column1 , .header_column2 , .header_column3 {
+  background: rgba(0, 0, 0, 0.4);
+}
+.header_logo i {
+  color: #ffffff;
+}
+.headerHomepage_nav ul li a {
+  color: #ffffff;
+}
+.headerHomepage_nav ul li a:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.home_page_categories_title > div a:hover {
+  color: #fc1800;
+}
+.home_page_categories_title > div a {
+  color: #000000;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Dancing Script', cursive;
+
+}
+.headerHomepage_info_text {
+  font-size: 12px;
+  color: #ffffff;
+}
+.home_page_categories_title > div span {
+  color: #fc1800;
+}
+.catagorie_line a {
+  color: #000000;
+  font-size: 13px;
+  font-family: 'Dancing Script', cursive;
+}
+.catagorie_line > nav-link {
+  padding: none;
+}
+.catagorie_line a:hover {
+  color: #fc1800;
+}
+.amount_line span {
+
+  color: #b3b3b3;
+  font-size: 13px;
+}
+.home_page_banner {
+  box-shadow: 0px 2px #EA1F1F;
+}
+.home_page_banner h1 {
+  font-size: 25px;
+  font-family: 'Dancing Script', cursive;
+}
+.home_page_banner  p {
+  font-size: 15px;
+  font-family: 'Dancing Script', cursive;
+}
